@@ -1,0 +1,200 @@
+.gradient-background {
+    background: linear-gradient(300deg, #DCD7C9, #A27B5C, #2C3639);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #F5F5DC, #8B4513); /* Sandy to brown gradient */
+}
+
+#resume {
+    color: white;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6rem;
+}
+
+.job-title {
+    text-align: center;
+}
+
+.section-title {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+hr {
+    color: white;
+}
+
+.project {
+    border-radius: 20px;
+}
+
+.col {
+    margin: 0px;
+}
+
+
+.pricing-container {
+    font-family: "Sono", sans-serif;
+    border: solid;
+    margin: 10px;
+    height: 60vh;
+
+    display: flex;
+    gap: 3rem;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-plan {
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    background-color: #61C0BF;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.plan-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.plan-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.plan-features {
+    list-style: none; /* remove bullet points from li */
+    padding: 0;
+    margin: 0;
+}
+
+.plan-features li {
+    margin-bottom: 20px;
+}
+
+.plan-button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    padding: 10px;
+}
+
+@media (max-width: 1250px) {
+    .pricing-container {
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+.project-container {
+    display: grid;
+    border: solid;
+    margin: 10px;
+    width: 80%;
+    grid-template-columns: auto 400px minmax(200px, 500px);
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-auto-rows: 50px;
+}
+
+.dev {
+    padding: 10px;
+    background-color: #f0d9b5;
+}
+
+.analysis {
+    padding: 10px;
+    background-color: #b58863;
+}
+
+.role-container {
+    border: solid;
+    height: 100vh;
+    margin: 10px;
+    display: grid;
+    gap: 3rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1.5fr;
+}
+
+.role-container > .item {
+    background-color: #61C0BF;
+    font-size: 5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.astronaut {
+    grid-column: span 2;
+}
+
+.cowboy {
+    grid-column-start: 2;
+    grid-column-end: -1;
+}
+
+.book {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:3;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
