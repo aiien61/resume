@@ -63,130 +63,15 @@ hr {
 }
 
 .col {
-    margin: 0px;
+    margin-bottom: 5px;
 }
 
-
-.pricing-container {
-    font-family: "Sono", sans-serif;
-    border: solid;
-    margin: 10px;
-    height: 60vh;
-
-    display: flex;
-    gap: 3rem;
-    
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.pricing-plan {
-    flex-shrink: 0;
-    flex-grow: 1;
-    flex-basis: 0;
-    text-align: center;
-    background-color: #61C0BF;
-    border-radius: 5px;
-    padding: 20px;
-    max-width: 400px;
-}
-
-.plan-title {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.plan-price {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.plan-features {
-    list-style: none; /* remove bullet points from li */
-    padding: 0;
-    margin: 0;
-}
-
-.plan-features li {
-    margin-bottom: 20px;
-}
-
-.plan-button {
+#linkedin {
     color: white;
-    border: none;
-    border-radius: 5px;
-    background-color: #ff6600;
-    padding: 10px;
 }
 
-@media (max-width: 1250px) {
-    .pricing-container {
-        flex-direction: column;
-        height: 100%;
-    }
-}
-
-.project-container {
-    display: grid;
-    border: solid;
-    margin: 10px;
-    width: 80%;
-    grid-template-columns: auto 400px minmax(200px, 500px);
-    grid-template-rows: 1fr 1fr 2fr;
-    grid-auto-rows: 50px;
-}
-
-.dev {
-    padding: 10px;
-    background-color: #f0d9b5;
-}
-
-.analysis {
-    padding: 10px;
-    background-color: #b58863;
-}
-
-.role-container {
-    border: solid;
-    height: 100vh;
-    margin: 10px;
-    display: grid;
-    gap: 3rem;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1.5fr;
-}
-
-.role-container > .item {
-    background-color: #61C0BF;
-    font-size: 5rem;
+#github {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.astronaut {
-    grid-column: span 2;
-}
-
-.cowboy {
-    grid-column-start: 2;
-    grid-column-end: -1;
-}
-
-.book {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end:3;
-
 }
 
 footer {
