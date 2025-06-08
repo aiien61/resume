@@ -4,14 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Will Kuan - CV</title>
+    <title>Sarah Johnson - Professional CV</title>
     <link rel="stylesheet" href="../css/page-cv.css">
 </head>
 
 <body>
+    <button class="language-switcher" onclick="toggleLanguage()">
+        🌐 中文
+    </button>
+
     <div class="container">
         <header class="header">
-            <div class="profile-img">WK</div>
+            <div class="profile-img"><img src="../assets/images/icons/shiba.png" alt="shiba dog" height="120"></div>
             <h1>Will Kuan</h1>
             <p>Algorithm Developer</p>
             <div class="contact-info">
@@ -20,7 +24,7 @@
                 </div>
                 <div class="contact-item">
                     <span><a href="https://www.linkedin.com/in/will-kuan-0b073385/">🌐</a></span> LinkedIn
-
+            
                 </div>
                 <div class="contact-item">
                     <span>📍</span> Taiwan
@@ -36,7 +40,7 @@
                         <div class="skill-item">Scheduling</div>
                         <div class="skill-item">Time Series</div>
                         <div class="skill-item">ERP / MES / APS</div>
-                        <div class="skill-item">AI Framework Dev</div>
+                        <div class="skill-item">AI Frameworks</div>
                         <div class="skill-item">Python</div>
                         <div class="skill-item">JavaScript</div>
                         <div class="skill-item">PostgreSQL</div>
@@ -83,10 +87,10 @@
             <main class="content">
                 <section class="section">
                     <h2>Professional Summary</h2>
-                    <p>AI Engineer with extensive experience in algorithm development, demand forecasting, 
-                        and data analysis. Proven track record in optimising manufacturing operations 
-                        and delivering data-driven solutions across industries such as semiconductors, 
-                        machine tools, pharmaceuticals, and retail. Passionate about creating efficient, 
+                    <p>AI Engineer with extensive experience in algorithm development, demand forecasting,
+                        and data analysis. Proven track record in optimising manufacturing operations
+                        and delivering data-driven solutions across industries such as semiconductors,
+                        machine tools, pharmaceuticals, and retail. Passionate about creating efficient,
                         maintainable code and driving technical innovation in fast-paced environments.</p>
                 </section>
 
@@ -94,59 +98,65 @@
                     <h2>Work Experience</h2>
                     <div class="experience-item">
                         <div class="job-title">AI Engineer (Algorithm Engineer)</div>
-                        <div class="company">InterAgent.io, Taiwan</div>
+                        <div class="company">InterAgent.io, New Taipei, Taiwan</div>
                         <div class="date">2020/10 - 2022/08</div>
                         <ul>
-                            <li>Developed a high-speed scheduling algorithm from the ground up using 
-                                parallel processing and an AI-based multi-agent system 
-                                (<a href="https://www.wikiwand.com/en/Multi-agent%20system">MAS</a>) 
-                                architecture, optimising job and resource allocation across diverse 
-                                manufacturing domains (semiconductor, machine tools, PCB, etc.)</li><hr/>
-                            
-                            <li>Designed and deployed scalable APIs to embed AI-driven scheduling capabilities 
-                                into partner ecosystems, enhancing manufacturing system interoperability 
-                                and supporting rapid digital transformation across  client operations</li><hr/>
-                            
-                            <li>Led a demand forecasting project by developing and improving machine learning, 
-                                deep learning, and statistical models, resulting in at least a 20% increase 
-                                in product line accuracy and enabling clients to better respond to market changes 
+                            <li>Developed a high-speed scheduling algorithm from the ground up using
+                                parallel processing and an AI-based multi-agent system
+                                (<a href="https://www.wikiwand.com/en/Multi-agent%20system">MAS</a>)
+                                architecture, optimising job and resource allocation across diverse
+                                manufacturing domains (semiconductor, machine tools, PCB, etc.)</li>
+                            <hr />
+                    
+                            <li>Designed and deployed scalable APIs to embed AI-driven scheduling capabilities
+                                into partner ecosystems, enhancing manufacturing system interoperability
+                                and supporting rapid digital transformation across client operations</li>
+                            <hr />
+                    
+                            <li>Led a demand forecasting project by developing and improving machine learning,
+                                deep learning, and statistical models, resulting in at least a 20% increase
+                                in product line accuracy and enabling clients to better respond to market changes
                                 through improved procurement andproduction planning</li>
                         </ul>
                     </div>
 
                     <div class="experience-item">
                         <div class="job-title">Data Analyst @ Digital Commerce Dept.</div>
-                        <div class="company">Taiwan External Trade Development Council, Taiwan</div>
+                        <div class="company">Taiwan External Trade Development Council, Taipei, Taiwan</div>
                         <div class="date">2019/06 - 2019/09</div>
                         <ul>
-                            <li>Refactored ongoing web scraping program to enhance 
+                            <li>Refactored ongoing web scraping program to enhance
                                 trading data collection processes</li>
                         </ul>
                     </div>
 
                     <div class="experience-item">
                         <div class="job-title">Data Analyst @ Core Algorithm Dev. Dept.</div>
-                        <div class="company">eBizprise, Taiwan</div>
+                        <div class="company">eBizprise Technology (TJ), Shanghai, China</div>
                         <div class="date">2016/05 - 2019/01</div>
                         <ul>
-                            <li>Developed medicine matching models with over 80% accuracy, along with 
-                                forecasting solutions achieving over 75% accuracy across various sectors 
-                                including FMCG, retail, pharmaceuticals, and supply chain</li><hr/>
+                            <li>Developed medicine matching models with over 80% accuracy, along with
+                                forecasting solutions achieving over 75% accuracy across various sectors
+                                including FMCG, retail, pharmaceuticals, and supply chain</li>
+                            <hr />
+                    
+                            <li>Regularly maintained and ehanced models using innovative techniques 
+                                to improve robustness and reliability</li>
+                            <hr />
+                    
+                            <li>Created BI report prototypes and regularly published technical articles 
+                                in industry e-newsletters</li>
                             
-                            <li>Maintained and refined models with innovative methods to enhance robustness</li><hr/>
-                            
-                            <li>Created BI report prototypes and contributed as a technical article writer</li><hr/>
-
-                            <li>Regularly published technical articles</li>
                         </ul>
                     </div>
+
                     <div class="experience-item">
                         <div class="job-title">Programmer @ Product Dev. & Service Dept.</div>
-                        <div class="company">eBizprise, Taiwan</div>
+                        <div class="company">eBizprise, Taipei, Taiwan</div>
                         <div class="date">2015/06 - 2016/04</div>
                         <ul>
-                            <li>Upgraded CTBC Bank Overseas Branch SAP BI Reports and conducted QA for 
-                                Internet Banking at the CTBC Bank Shanghai Branch.</li>
+                            <li>CTBC Bank Overseas Branch BI Report Upgrade Project</li>
+                            <li>Assisted in testing the Internet Banking system at CTBC Bank Shanghai Branch</li>
                         </ul>
                     </div>
                 </section>
@@ -157,10 +167,19 @@
                         <div class="job-title">Master's Degree in Service Science (Business-Oriented Data Analysis)</div>
                         <div class="company">National Tsing Hua University, Taiwan</div>
                         <div class="date">2018/09 - 2020/06</div>
-                        <p>Master Thesis: Evaluating Peak-Capturing Performance of Time Series Forecasting Algorithms</p><hr>
-                        <p>IEEE DataCom 2019 speaker & Paper: Forecasting Daily Accommodation Occupancy for Supply Preparation by a Sharing Economy Platform</p>
+                        <!-- <ul>
+                            <li>Master Thesis: Evaluating Peak-Capturing Performance of Time Series 
+                                Forecasting Algorithms</li><hr/>
+                            
+                            <li>IEEE DataCom 2019 speaker & Paper: Forecasting Daily Accommodation 
+                                Occupancy for Supply Preparation by a Sharing Economy Platform</li>
+                        </ul> -->
+                        <p>Master Thesis: Evaluating Peak-Capturing Performance of Time Series 
+                            Forecasting Algorithms</p><hr />
+                        <p>IEEE DataCom 2019 speaker & Paper: Forecasting Daily Accommodation 
+                            Occupancy for Supply Preparation by a Sharing Economy Platform</p>
                     </div>
-
+                    
                     <div class="education-item">
                         <div class="job-title">Bachelor's Degree in Applied Mathematics</div>
                         <div class="company">National Sun Yat-Sen University, Taiwan</div>
