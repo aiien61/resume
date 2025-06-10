@@ -25,7 +25,8 @@ const translations = {
             "AI Frameworks",
             "Python",
             "JavaScript",
-            "PostgreSQL"
+            "PostgreSQL",
+            "FastAPI"
         ],
         languages: ["Chinese / Mandarin (Native)", "English (Conversational)"],
         achievements: [
@@ -148,7 +149,8 @@ const translations = {
             "AI 框架開發",
             "Python",
             "JavaScript",
-            "PostgreSQL"
+            "PostgreSQL",
+            "FastAPI"
         ],
         languages: ["中文（母語）", "英文"],
         achievements: [
